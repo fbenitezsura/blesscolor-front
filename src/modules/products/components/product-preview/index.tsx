@@ -41,7 +41,7 @@ const ProductPreview = ({
                   "text-ui-fg-interactive": price.price_type === "sale",
                 })}
               >
-                <ShowNumberFormat className="text-[16px] text-[#FF5733] font-semibold" value={price.calculated_price}/>
+                <ShowNumberFormat className="text-[16px] text-[#008f39] font-semibold" value={price.calculated_price}/>
               </Text>
             </>
           ) : (

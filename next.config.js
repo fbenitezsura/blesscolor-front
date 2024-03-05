@@ -9,7 +9,7 @@ module.exports = withStoreConfig({
     ],
     missingSuspenseWithCSRBailout: false,
     serverActions: {
-      allowedOrigins: ['sandbox.flow.cl','*.sandbox.flow.cl','*.ehfconcept-front.vercel.app','ehfconcept-front.vercel.app','webpay3gint.transbank.cl'],
+      allowedOrigins: ['sandbox.flow.cl','*.sandbox.flow.cl','*.blesscolor-front.vercel.app','blesscolor-front.vercel.app','webpay3gint.transbank.cl'],
     },
   },
   features: store.features,
@@ -29,7 +29,7 @@ module.exports = withStoreConfig({
       },
       {
         protocol: "https",
-        hostname: "ehfconcept-front.vercel.app",
+        hostname: "blesscolor-front.vercel.app",
       },
       {
         protocol: "https",
@@ -37,7 +37,7 @@ module.exports = withStoreConfig({
       },
       {
         protocol: "https",
-        hostname: "medusa-ecommerce-bucket.s3.us-east-2.amazonaws.com",
+        hostname: "bless-color.s3.us-east-2.amazonaws.com",
       },
       {
         protocol: "https",
