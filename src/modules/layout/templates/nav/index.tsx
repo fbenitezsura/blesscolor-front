@@ -22,7 +22,7 @@ const Nav = () => {
     <div className="sticky top-0 inset-x-0 z-50 group">
       <div className="h-[56px] bg-[#EDEDED] flex justify-around items-center">
         <span className="text-[10px] md:text-[12px] text-[#3b3b3b]">
-          (+56 9) 7479 1692
+          {process.env.NEXT_PUBLIC_NUMBER_PHONE}
         </span>
         <span className="text-[9px] md:text-[14px] font-extrabold">ENVÍOS SOLO REGIÓN DEL BIOBIO.</span>
       </div>
