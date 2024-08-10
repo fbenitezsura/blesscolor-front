@@ -24,7 +24,22 @@ export default async function Home() {
     <>
       <Slider 
       typeSlider={'banner'}
-      data={[1]}
+      data={[{
+        desktopUrl: '/banner/banner1.png',
+        mobileUrl: '/banner/banner1m.png',
+      },
+      {
+        desktopUrl: '/banner/banner2.png',
+        mobileUrl: '/banner/banner2m.png',
+      },
+      {
+        desktopUrl: '/banner/banner3.png',
+        mobileUrl: '/banner/banner3m.png',
+      },
+      {
+        desktopUrl: '/banner/banner4.png',
+        mobileUrl: '/banner/banner4m.png',
+      }]}
       />
       <FeaturedCategory collections={collections}/>
       <Suspense fallback={<SkeletonHomepageProducts count={count} />}>
