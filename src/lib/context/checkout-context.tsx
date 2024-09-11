@@ -331,7 +331,8 @@ export const CheckoutProvider = ({ children }: CheckoutProviderProps) => {
             data: {
               order_id: data.id,
               email: data.email,
-              amount: data.total
+              amount: data.total,
+              subject: `Compra en ${NEXT_PUBLIC_NAME_ECOMMERCE}`,
             }
           }, {
             onSuccess: ({ cart }) => {
